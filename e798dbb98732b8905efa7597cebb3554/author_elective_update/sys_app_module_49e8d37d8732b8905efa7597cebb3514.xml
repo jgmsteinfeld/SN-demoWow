@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="demoWow">09e8d37d8732b8905efa7597cebb350e</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>NEW</link_type>
+        <map_page/>
+        <mobile_title>Create New</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>em_alert</name>
+        <order>2</order>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-25 18:41:34</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>49e8d37d8732b8905efa7597cebb3514</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="demoWow" source="e798dbb98732b8905efa7597cebb3554">e798dbb98732b8905efa7597cebb3554</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="demoWow">e798dbb98732b8905efa7597cebb3554</sys_scope>
+        <sys_update_name>sys_app_module_49e8d37d8732b8905efa7597cebb3514</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-25 18:41:34</sys_updated_on>
+        <timeline_page/>
+        <title>Create New</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SN-demoWow">e798dbb98732b8905efa7597cebb3554</application>
+        <file_path/>
+        <instance_id>8a7b75c0dbfbec50a667cac5059619b2</instance_id>
+        <instance_name>jsteisc2quebecdemo</instance_name>
+        <name>sys_app_module_49e8d37d8732b8905efa7597cebb3514</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="demoWow">09e8d37d8732b8905efa7597cebb350e</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>NEW</link_type><map_page/><mobile_title>Create New</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>em_alert</name><order>2</order><override_menu_roles>false</override_menu_roles><query/><report/><roles/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-09-25 18:41:34</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>49e8d37d8732b8905efa7597cebb3514</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Create New</sys_name><sys_overrides/><sys_package display_value="demoWow" source="e798dbb98732b8905efa7597cebb3554">e798dbb98732b8905efa7597cebb3554</sys_package><sys_policy/><sys_scope display_value="demoWow">e798dbb98732b8905efa7597cebb3554</sys_scope><sys_update_name>sys_app_module_49e8d37d8732b8905efa7597cebb3514</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-09-25 18:41:34</sys_updated_on><timeline_page/><title>Create New</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>638843122</payload_hash>
+        <record_name>Create New</record_name>
+        <reverted_from/>
+        <source>5a940ac0db77201008bf9fd2ca961904</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-25 18:41:34</sys_created_on>
+        <sys_id>c5e8d37d8732b8905efa7597cebb3516</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c1e433a950000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-25 18:41:34</sys_updated_on>
+        <type>Module</type>
+        <update_guid>cde8d37dca32b8902d21b4c05d943315</update_guid>
+        <update_guid_history>cde8d37dca32b8902d21b4c05d943315:638843122</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Create New">5eb95ffd8732b8905efa7597cebb35ad</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-25 18:45:12</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>8dc43babb81747a4843d5dcf0b43fe09</sys_id>
+        <sys_metadata>49e8d37d8732b8905efa7597cebb3514</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Create New</sys_name>
+        <sys_package display_value="SN-demoWow" source="e798dbb98732b8905efa7597cebb3554">e798dbb98732b8905efa7597cebb3554</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SN-demoWow">e798dbb98732b8905efa7597cebb3554</sys_scope>
+        <sys_scope_delete display_value="">481d790c5b8c48f9ba375b68890ec1b9</sys_scope_delete>
+        <sys_update_name>sys_app_module_49e8d37d8732b8905efa7597cebb3514</sys_update_name>
+        <sys_update_version display_value="sys_app_module_49e8d37d8732b8905efa7597cebb3514">c5e8d37d8732b8905efa7597cebb3516</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-25 18:45:12</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

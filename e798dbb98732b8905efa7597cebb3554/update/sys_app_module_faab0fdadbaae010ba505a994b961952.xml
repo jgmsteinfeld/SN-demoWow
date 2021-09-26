@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="demoWow">758bc7dadbaae010ba505a994b961967</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>SCRIPT</link_type>
+        <map_page/>
+        <mobile_title>CartserviceV2 Deploy</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name/>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query>var CR = new demoWow_create_change_request();&#13;
+CR.createCR1();</query>
+        <report/>
+        <roles/>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-02-28 00:35:03</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>faab0fdadbaae010ba505a994b961952</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>CartserviceV2 Deploy</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SN-demoWow">e798dbb98732b8905efa7597cebb3554</sys_scope>
+        <sys_update_name>sys_app_module_faab0fdadbaae010ba505a994b961952</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-25 19:01:18</sys_updated_on>
+        <timeline_page/>
+        <title>CartserviceV2 Deploy</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="SN-demoWow">e798dbb98732b8905efa7597cebb3554</claim_owner_scope>
+        <claim_timestamp>17c1e461e9d0000001</claim_timestamp>
+        <metadata_update_name>sys_app_module_faab0fdadbaae010ba505a994b961952</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>demoWow</previous_claim_name>
+        <previous_claim_scope>e798dbb98732b8905efa7597cebb3554</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-25 18:44:44</sys_created_on>
+        <sys_id>5b991bfd8732b8905efa7597cebb352e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-25 18:44:44</sys_updated_on>
+    </sys_claim>
+</record_update>

@@ -1,0 +1,1080 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Template">ee4ddd62b7301010835d6f54ce11a90f</category>
+        <copied_from>775b5356dbaee010ba505a994b961932</copied_from>
+        <copied_from_name>demoWow Deployment</copied_from_name>
+        <description>Rollback Deployment</description>
+        <ih_action>true</ih_action>
+        <internal_name>demowow_rollback_deployment</internal_name>
+        <label_cache>[{"name":"{{action.script}}","label":"action➛script","type":"action","ref":""},{"name":"{{action.deployment}}","label":"action➛deployment","type":"action","ref":""},{"name":"{{step[1054161e-d93e-4743-b375-6d63bfcf41dd].output}}","label":"step➛Execute Deployment➛Output","type":"step","ref":""}]</label_cache>
+        <master_snapshot>7783f732dbeaa010ba505a994b9619f8</master_snapshot>
+        <name>demoWow rollback deployment.</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 15:37:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7324e3f6dbe6a010ba505a994b9619e2</sys_id>
+        <sys_mod_count>40</sys_mod_count>
+        <sys_name>demoWow rollback deployment.</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SN-demoWow">e798dbb98732b8905efa7597cebb3554</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_7324e3f6dbe6a010ba505a994b9619e2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-25 19:08:03</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=7324e3f6dbe6a010ba505a994b9619e2"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7324e3f6dbe6a010ba505a994b9619e2"/>
+    <sys_element_mapping action="delete_multiple" query="id=7324e3f6dbe6a010ba505a994b9619e2"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status</field>
+        <id>7324e3f6dbe6a010ba505a994b9619e2</id>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 15:38:01</sys_created_on>
+        <sys_id>5c3427f6dbe6a010ba505a994b96195d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 15:38:01</sys_updated_on>
+        <table>var__m_sys_hub_action_output_7324e3f6dbe6a010ba505a994b9619e2</table>
+        <value>{{step[1054161e-d93e-4743-b375-6d63bfcf41dd].output}}</value>
+    </sys_element_mapping>
+    <sys_claim action="INSERT_OR_UPDATE">
+        <claim_owner_scope display_value="SN-demoWow">e798dbb98732b8905efa7597cebb3554</claim_owner_scope>
+        <claim_timestamp>17c1e5b78680000001</claim_timestamp>
+        <metadata_update_name>sys_hub_action_type_definition_7324e3f6dbe6a010ba505a994b9619e2</metadata_update_name>
+        <previous_claim_app_version>1.0.0</previous_claim_app_version>
+        <previous_claim_name>demoWow</previous_claim_name>
+        <previous_claim_scope>e798dbb98732b8905efa7597cebb3554</previous_claim_scope>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-25 19:08:03</sys_created_on>
+        <sys_id>41fedf398772b8905efa7597cebb3521</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-25 19:08:03</sys_updated_on>
+    </sys_claim>
+    <sys_hub_step_instance action="delete_multiple" query="action=7324e3f6dbe6a010ba505a994b9619e2^sys_idNOT IN083427f6dbe6a010ba505a994b96191b"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="demoWow rollback deployment.">7324e3f6dbe6a010ba505a994b9619e2</action>
+        <cid>1054161e-d93e-4743-b375-6d63bfcf41dd</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Execute Deployment</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="SSH">761bdfa073332300673d94596bf6a72d</step_type>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 15:38:00</sys_created_on>
+        <sys_id>083427f6dbe6a010ba505a994b96191b</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-26 22:22:18</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=083427f6dbe6a010ba505a994b96191b"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>083427f6dbe6a010ba505a994b96191b</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 15:38:00</sys_created_on>
+        <sys_id>1c3427f6dbe6a010ba505a994b96193f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-26 22:22:18</sys_updated_on>
+        <value>use_connection_alias</value>
+        <variable display_value="Connection">843b1fa073332300673d94596bf6a702</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>083427f6dbe6a010ba505a994b96191b</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 15:38:00</sys_created_on>
+        <sys_id>583427f6dbe6a010ba505a994b96193f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 15:38:00</sys_updated_on>
+        <value>172.31.49.135</value>
+        <variable display_value="Host">952cdbe073332300673d94596bf6a7a7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>083427f6dbe6a010ba505a994b96191b</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 15:38:00</sys_created_on>
+        <sys_id>943427f6dbe6a010ba505a994b96193f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 16:14:50</sys_updated_on>
+        <value>86bc5b1adbaee010ba505a994b96194a</value>
+        <variable display_value="Credential Alias">5efc532473332300673d94596bf6a747</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>083427f6dbe6a010ba505a994b96191b</document_key>
+        <order>550</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 15:38:00</sys_created_on>
+        <sys_id>983427f6dbe6a010ba505a994b96193e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 15:38:00</sys_updated_on>
+        <value>2d20f2760a0006bc095bf17ae4e0d4ee</value>
+        <variable display_value="Capabilities">37ddd72473332300673d94596bf6a781</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>083427f6dbe6a010ba505a994b96191b</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-26 22:22:18</sys_created_on>
+        <sys_id>a0c99109db7f6410438ffe1b68961966</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-26 22:22:18</sys_updated_on>
+        <value>d1a89d05db7f6410438ffe1b6896191c</value>
+        <variable display_value="Connection Alias">6b5c5fe073332300673d94596bf6a7a4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>083427f6dbe6a010ba505a994b96191b</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 15:38:00</sys_created_on>
+        <sys_id>d03427f6dbe6a010ba505a994b96193f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 15:38:00</sys_updated_on>
+        <value>/home/ec2-user</value>
+        <variable display_value="Working Directory">026edb2473332300673d94596bf6a7c6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>083427f6dbe6a010ba505a994b96191b</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 15:38:00</sys_created_on>
+        <sys_id>dc3427f6dbe6a010ba505a994b96193f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 15:38:00</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">92bd572473332300673d94596bf6a7ff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>083427f6dbe6a010ba505a994b96191b</document_key>
+        <order>470</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 16:04:55</sys_created_on>
+        <sys_id>ea5a2776db2aa010ba505a994b961985</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 16:05:37</sys_updated_on>
+        <value>auto_select</value>
+        <variable display_value="MID Selection">25d3c74373531010791f94596bf6a712</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=083427f6dbe6a010ba505a994b96191b"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>083427f6dbe6a010ba505a994b96191b</id>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 15:38:00</sys_created_on>
+        <sys_id>103427f6dbe6a010ba505a994b96193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 15:38:00</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>command</field>
+        <id>083427f6dbe6a010ba505a994b96191b</id>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 15:38:00</sys_created_on>
+        <sys_id>1c3427f6dbe6a010ba505a994b96193d</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 16:24:34</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value>sleep 5
+kubectl -n boutique get deployment {{action.deployment}} &gt; /dev/null 2&gt;&amp;1
+if [ $? -eq 0 ] ; then
+   ./deploy_cartservice_v1.sh &gt; deploy.out
+   sleep 5
+fi
+out=`kubectl -n boutique get deployment {{action.deployment}} 2&gt;&amp;1 1&gt;/dev/null | cut -d '(' -f2 | cut -d ')' -f1`
+while [ $out != "NotFound" ] ; do
+sleep 2
+out=`kubectl -n boutique get deployment {{action.deployment}} 2&gt;&amp;1 1&gt;/dev/null | cut -d '(' -f2 | cut -d ')' -f1`
+done
+echo $out</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>083427f6dbe6a010ba505a994b96191b</id>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 15:38:00</sys_created_on>
+        <sys_id>543427f6dbe6a010ba505a994b96193e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 15:38:00</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>083427f6dbe6a010ba505a994b96191b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-26 22:22:18</sys_created_on>
+        <sys_id>60c99109db7f6410438ffe1b68961959</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-26 22:22:18</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>083427f6dbe6a010ba505a994b96191b</id>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 15:38:00</sys_created_on>
+        <sys_id>dc3427f6dbe6a010ba505a994b96193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 15:38:00</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>directory</field>
+        <id>083427f6dbe6a010ba505a994b96191b</id>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 15:38:00</sys_created_on>
+        <sys_id>583427f6dbe6a010ba505a994b96193d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 15:38:00</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>host</field>
+        <id>083427f6dbe6a010ba505a994b96191b</id>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 15:38:00</sys_created_on>
+        <sys_id>903427f6dbe6a010ba505a994b96193e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 15:38:00</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_application</field>
+        <id>083427f6dbe6a010ba505a994b96191b</id>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 15:38:00</sys_created_on>
+        <sys_id>183427f6dbe6a010ba505a994b96193e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 15:38:00</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_selection</field>
+        <id>083427f6dbe6a010ba505a994b96191b</id>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 16:04:55</sys_created_on>
+        <sys_id>6a5a2776db2aa010ba505a994b961985</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 16:04:55</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=083427f6dbe6a010ba505a994b96191b^sys_idNOT IN348aeb76db2aa010ba505a994b96191d"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>mid_server</input_name>
+        <instance>083427f6dbe6a010ba505a994b96191b</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"mid_server":{"scriptActive":false}}</script>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 16:05:37</sys_created_on>
+        <sys_id>348aeb76db2aa010ba505a994b96191d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 16:05:37</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_action_input action="delete_multiple" query="model=7324e3f6dbe6a010ba505a994b9619e2^sys_idNOT IN3b24e3f6dbe6a010ba505a994b9619e8"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b57424d9-f6aa-4577-b2da-f7a195bd244d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>cartservicev2</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>deployment</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>deployment</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="demoWow rollback deployment.">7324e3f6dbe6a010ba505a994b9619e2</model>
+        <model_id>7324e3f6dbe6a010ba505a994b9619e2</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_7324e3f6dbe6a010ba505a994b9619e2</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 15:37:59</sys_created_on>
+        <sys_id>3b24e3f6dbe6a010ba505a994b9619e8</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 15:38:00</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=7324e3f6dbe6a010ba505a994b9619e2^sys_idNOT IN1c3427f6dbe6a010ba505a994b961942"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=023c99da-ac3c-4f8b-b59b-996ff70a52df</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status</element>
+        <element_prototype display_value="Output" element="output" name="var__m_sys_flow_step_definition_output_761bdfa073332300673d94596bf6a72d">fab0a3a473332300673d94596bf6a70b</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>status</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="demoWow rollback deployment.">7324e3f6dbe6a010ba505a994b9619e2</model>
+        <model_id>7324e3f6dbe6a010ba505a994b9619e2</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_7324e3f6dbe6a010ba505a994b9619e2</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 15:38:00</sys_created_on>
+        <sys_id>1c3427f6dbe6a010ba505a994b961942</sys_id>
+        <sys_mod_count>39</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-14 21:06:35</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_7324e3f6dbe6a010ba505a994b9619e2^sys_idNOT IN003427f6dbe6a010ba505a994b961919"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>deployment</element>
+        <help/>
+        <hint/>
+        <label>deployment</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_7324e3f6dbe6a010ba505a994b9619e2</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 15:38:00</sys_created_on>
+        <sys_id>003427f6dbe6a010ba505a994b961919</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 15:38:00</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_7324e3f6dbe6a010ba505a994b9619e2^sys_idNOT IN943427f6dbe6a010ba505a994b961955"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>status</element>
+        <help/>
+        <hint/>
+        <label>status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_7324e3f6dbe6a010ba505a994b9619e2</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 15:38:01</sys_created_on>
+        <sys_id>943427f6dbe6a010ba505a994b961955</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 15:38:01</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=7324e3f6dbe6a010ba505a994b9619e2^sys_idNOT IN28937b32dbeaa010ba505a994b9619e0"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="demoWow rollback deployment.">7324e3f6dbe6a010ba505a994b9619e2</action_id>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"28937b32dbeaa010ba505a994b9619e0","name":"plan"}}</plan>
+        <snapshot>0f05713adbc87010438ffe1b68961981</snapshot>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 16:45:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>28937b32dbeaa010ba505a994b9619e0</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-14 21:06:38</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_template/>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Template">ee4ddd62b7301010835d6f54ce11a90f</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Rollback Deployment</description>
+        <internal_name>demowow_rollback_deployment</internal_name>
+        <label_cache>[{"name":"{{action.script}}","label":"action➛script","type":"action","ref":""},{"name":"{{action.deployment}}","label":"action➛deployment","type":"action","ref":""},{"name":"{{step[1054161e-d93e-4743-b375-6d63bfcf41dd].output}}","label":"step➛Execute Deployment➛Output","type":"step","ref":""}]</label_cache>
+        <master>true</master>
+        <name>demoWow rollback deployment.</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="demoWow rollback deployment.">7324e3f6dbe6a010ba505a994b9619e2</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 16:45:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7783f732dbeaa010ba505a994b9619f8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-14 21:06:36</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=7783f732dbeaa010ba505a994b9619f8"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7783f732dbeaa010ba505a994b9619f8"/>
+    <sys_element_mapping action="delete_multiple" query="id=7783f732dbeaa010ba505a994b9619f8"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>status</field>
+        <id>7783f732dbeaa010ba505a994b9619f8</id>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 16:45:11</sys_created_on>
+        <sys_id>9c937b32dbeaa010ba505a994b96191c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 16:45:11</sys_updated_on>
+        <table>var__m_sys_hub_action_output_7783f732dbeaa010ba505a994b9619f8</table>
+        <value>{{step[1054161e-d93e-4743-b375-6d63bfcf41dd].output}}</value>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=7783f732dbeaa010ba505a994b9619f8^sys_idNOT IN44933b32dbeaa010ba505a994b961984"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="demoWow rollback deployment.">7783f732dbeaa010ba505a994b9619f8</action>
+        <cid>1054161e-d93e-4743-b375-6d63bfcf41dd</cid>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Execute Deployment</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="SSH">761bdfa073332300673d94596bf6a72d</step_type>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 16:45:10</sys_created_on>
+        <sys_id>44933b32dbeaa010ba505a994b961984</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-29 17:53:17</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=44933b32dbeaa010ba505a994b961984"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>44933b32dbeaa010ba505a994b961984</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 16:45:10</sys_created_on>
+        <sys_id>00933b32dbeaa010ba505a994b96198f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 16:45:10</sys_updated_on>
+        <value>86bc5b1adbaee010ba505a994b96194a</value>
+        <variable display_value="Credential Alias">5efc532473332300673d94596bf6a747</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>44933b32dbeaa010ba505a994b961984</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 16:45:10</sys_created_on>
+        <sys_id>48933b32dbeaa010ba505a994b96198f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 16:45:10</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">92bd572473332300673d94596bf6a7ff</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>44933b32dbeaa010ba505a994b961984</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-29 17:53:17</sys_created_on>
+        <sys_id>49f83779dbbf6010438ffe1b6896192c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-29 17:53:17</sys_updated_on>
+        <value>d1a89d05db7f6410438ffe1b6896191c</value>
+        <variable display_value="Connection Alias">6b5c5fe073332300673d94596bf6a7a4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>44933b32dbeaa010ba505a994b961984</document_key>
+        <order>600</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 16:45:10</sys_created_on>
+        <sys_id>4c933b32dbeaa010ba505a994b96198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 16:45:10</sys_updated_on>
+        <value>/home/ec2-user</value>
+        <variable display_value="Working Directory">026edb2473332300673d94596bf6a7c6</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>44933b32dbeaa010ba505a994b961984</document_key>
+        <order>550</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 16:45:10</sys_created_on>
+        <sys_id>84933b32dbeaa010ba505a994b96198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 16:45:10</sys_updated_on>
+        <value>2d20f2760a0006bc095bf17ae4e0d4ee</value>
+        <variable display_value="Capabilities">37ddd72473332300673d94596bf6a781</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>44933b32dbeaa010ba505a994b961984</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 16:45:10</sys_created_on>
+        <sys_id>84933b32dbeaa010ba505a994b96198f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-29 17:53:17</sys_updated_on>
+        <value>use_connection_alias</value>
+        <variable display_value="Connection">843b1fa073332300673d94596bf6a702</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>44933b32dbeaa010ba505a994b961984</document_key>
+        <order>400</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 16:45:10</sys_created_on>
+        <sys_id>c0933b32dbeaa010ba505a994b96198f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 16:45:10</sys_updated_on>
+        <value>172.31.49.135</value>
+        <variable display_value="Host">952cdbe073332300673d94596bf6a7a7</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=44933b32dbeaa010ba505a994b961984"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>44933b32dbeaa010ba505a994b961984</id>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 16:45:10</sys_created_on>
+        <sys_id>8c933b32dbeaa010ba505a994b96198c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 16:45:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>command</field>
+        <id>44933b32dbeaa010ba505a994b961984</id>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 16:45:10</sys_created_on>
+        <sys_id>08933b32dbeaa010ba505a994b96198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 16:45:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value>sleep 5
+kubectl -n boutique get deployment {{action.deployment}} &gt; /dev/null 2&gt;&amp;1
+if [ $? -eq 0 ] ; then
+   ./deploy_cartservice_v1.sh &gt; deploy.out
+   sleep 5
+fi
+out=`kubectl -n boutique get deployment {{action.deployment}} 2&gt;&amp;1 1&gt;/dev/null | cut -d '(' -f2 | cut -d ')' -f1`
+while [ $out != "NotFound" ] ; do
+sleep 2
+out=`kubectl -n boutique get deployment {{action.deployment}} 2&gt;&amp;1 1&gt;/dev/null | cut -d '(' -f2 | cut -d ')' -f1`
+done
+echo $out</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>44933b32dbeaa010ba505a994b961984</id>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 16:45:10</sys_created_on>
+        <sys_id>40933b32dbeaa010ba505a994b96198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 16:45:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection_alias</field>
+        <id>44933b32dbeaa010ba505a994b961984</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-29 17:53:17</sys_created_on>
+        <sys_id>cdf83779dbbf6010438ffe1b6896192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-29 17:53:17</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>credential_alias</field>
+        <id>44933b32dbeaa010ba505a994b961984</id>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 16:45:10</sys_created_on>
+        <sys_id>c8933b32dbeaa010ba505a994b96198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 16:45:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>directory</field>
+        <id>44933b32dbeaa010ba505a994b961984</id>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 16:45:10</sys_created_on>
+        <sys_id>44933b32dbeaa010ba505a994b96198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 16:45:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>host</field>
+        <id>44933b32dbeaa010ba505a994b961984</id>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 16:45:10</sys_created_on>
+        <sys_id>8c933b32dbeaa010ba505a994b96198d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 16:45:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>mid_application</field>
+        <id>44933b32dbeaa010ba505a994b961984</id>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 16:45:10</sys_created_on>
+        <sys_id>04933b32dbeaa010ba505a994b96198e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 16:45:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_761bdfa073332300673d94596bf6a72d</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=44933b32dbeaa010ba505a994b961984^sys_idNOT IN04933b32dbeaa010ba505a994b96198b"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <input_name>mid_server</input_name>
+        <instance>44933b32dbeaa010ba505a994b961984</instance>
+        <referenced_table>sys_hub_step_instance</referenced_table>
+        <script>{"mid_server":{"scriptActive":false}}</script>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 16:45:10</sys_created_on>
+        <sys_id>04933b32dbeaa010ba505a994b96198b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 16:45:10</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_action_input action="delete_multiple" query="model=7783f732dbeaa010ba505a994b9619f8^sys_idNOT INfb833b32dbeaa010ba505a994b96195e"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=b57424d9-f6aa-4577-b2da-f7a195bd244d</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>cartservicev2</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>deployment</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>deployment</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="demoWow rollback deployment.">7783f732dbeaa010ba505a994b9619f8</model>
+        <model_id>7783f732dbeaa010ba505a994b9619f8</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_7783f732dbeaa010ba505a994b9619f8</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 16:45:09</sys_created_on>
+        <sys_id>fb833b32dbeaa010ba505a994b96195e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 16:45:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_output action="delete_multiple" query="model=7783f732dbeaa010ba505a994b9619f8^sys_idNOT IN00933b32dbeaa010ba505a994b9619dd"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=023c99da-ac3c-4f8b-b59b-996ff70a52df</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>status</element>
+        <element_prototype display_value="Output" element="output" name="var__m_sys_flow_step_definition_output_761bdfa073332300673d94596bf6a72d">fab0a3a473332300673d94596bf6a70b</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>status</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="demoWow rollback deployment.">7783f732dbeaa010ba505a994b9619f8</model>
+        <model_id>7783f732dbeaa010ba505a994b9619f8</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_7783f732dbeaa010ba505a994b9619f8</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 16:45:10</sys_created_on>
+        <sys_id>00933b32dbeaa010ba505a994b9619dd</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-05-14 21:06:36</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_7783f732dbeaa010ba505a994b9619f8^sys_idNOT IN40933b32dbeaa010ba505a994b961969"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>deployment</element>
+        <help/>
+        <hint/>
+        <label>deployment</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_7783f732dbeaa010ba505a994b9619f8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 16:45:10</sys_created_on>
+        <sys_id>40933b32dbeaa010ba505a994b961969</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 16:45:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_7783f732dbeaa010ba505a994b9619f8^sys_idNOT IN10933b32dbeaa010ba505a994b9619e3"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>status</element>
+        <help/>
+        <hint/>
+        <label>status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_7783f732dbeaa010ba505a994b9619f8</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>joe.steinfeld</sys_created_by>
+        <sys_created_on>2021-03-01 16:45:11</sys_created_on>
+        <sys_id>10933b32dbeaa010ba505a994b9619e3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Global" source="global">global</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Global">global</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>joe.steinfeld</sys_updated_by>
+        <sys_updated_on>2021-03-01 16:45:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_hub_action_type_definition action="update">
+        <sys_id>7324e3f6dbe6a010ba505a994b9619e2</sys_id>
+        <latest_snapshot>7783f732dbeaa010ba505a994b9619f8</latest_snapshot>
+    </sys_hub_action_type_definition>
+</record_update>
